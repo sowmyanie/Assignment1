@@ -167,25 +167,25 @@ public class Login {
        //driver.findElement(By.xpath("https://demo.guru99.com/test/newtours/reservation.php")).click();
         driver.findElement(By.xpath("//a[@href=\"reservation.php\"][1]")).click();
               Thread.sleep(200);
-//
-//        driver.findElement(By.xpath("//input[@name='tripType' and @value='roundtrip']")).click();
-//        Select Dropdown= new Select(driver.findElement(By.name("passCount")));
-//        Dropdown.selectByValue("2");
-//        Select departfrom= new Select(driver.findElement(By.name("fromPort")));
-//        departfrom.selectByValue("London");
-//        Select frommonth= new Select(driver.findElement(By.name("fromMonth")));
-//        frommonth.selectByValue("December");
-//        Select fromday= new Select(driver.findElement(By.name("fromDay")));
-//        fromday.selectByValue("29");
-//        Select destination= new Select(driver.findElement(By.name("toPort")));
-//        destination.selectByValue("Sydney");
-//        Select tomonth= new Select(driver.findElement(By.name("fromMonth")));
-//        tomonth.selectByValue("December");
-//        Select to_day= new Select(driver.findElement(By.name("fromDay")));
-//        to_day.selectByValue("31");
-//        driver.findElement(By.xpath("//input[@name='servClass' and @value='Business']")).click();
-//        Select airline= new Select(driver.findElement(By.name("airline")));
-//        airline.selectByIndex(1);
+
+      driver.findElement(By.xpath("//input[@name='tripType' and @value='roundtrip']")).click();
+        Select Dropdown= new Select(driver.findElement(By.name("passCount")));
+        Dropdown.selectByValue("2");
+        Select departfrom= new Select(driver.findElement(By.name("fromPort")));
+        departfrom.selectByValue("London");
+        Select frommonth= new Select(driver.findElement(By.name("fromMonth")));
+        frommonth.selectByValue("December");
+        Select fromday= new Select(driver.findElement(By.name("fromDay")));
+        fromday.selectByValue("29");
+        Select destination= new Select(driver.findElement(By.name("toPort")));
+        destination.selectByValue("Sydney");
+        Select tomonth= new Select(driver.findElement(By.name("fromMonth")));
+        tomonth.selectByValue("December");
+        Select to_day= new Select(driver.findElement(By.name("fromDay")));
+        to_day.selectByValue("31");
+        driver.findElement(By.xpath("//input[@name='servClass' and @value='Business']")).click();
+        Select airline= new Select(driver.findElement(By.name("airline")));
+        airline.selectByIndex(1);
     }
 
 
